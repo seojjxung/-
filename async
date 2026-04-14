@@ -16,3 +16,17 @@
 서버 응답 기다리는 동안 멈추지 않음
 사용자 경험이 훨씬 부드러움 (버벅임 없음)
 코드 느낌으로 보면 (자바스크립트):
+
+javascript
+
+
+async function getData() {
+  const res = await fetch("api");
+  return res.json();
+}
+여기서
+
+async: 이 함수는 비동기로 동작
+await: 결과 올 때까지 "기다리긴 하는데", 전체 프로그램은 멈추지 않음
+한 줄 요약
+👉 async = “기다리지 않고 다른 일 먼저 하는 방식”
