@@ -1,0 +1,23 @@
+URL은 웹에서 특정 위치를 가리키는 주소야.
+
+풀네임은 Uniform Resource Locator.
+
+예를 들어:
+
+https://www.google.com/search?q=chatgpt
+이걸 나눠보면:
+
+https → 어떤 방식으로 접속할지 (프로토콜)
+www.google.com → 서버 주소 (도메인)
+/search → 서버 안의 경로
+?q=chatgpt → 추가 정보(쿼리)
+쉽게 말하면
+👉 “인터넷에서 원하는 정보를 찾기 위한 주소”
+
+한 줄 정리
+👉 URL = 웹상의 위치를 알려주는 주소
+
+
+
+
+
